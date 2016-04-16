@@ -1,1 +1,0 @@
-[print(''.join([' ' for _ in range(abs(i-int(__import__('sys').argv[1])))] + ['* ' for _ in range(int(__import__('sys').argv[1])-abs(i-int(__import__('sys').argv[1])))])) for i in range(1,2*int(__import__('sys').argv[1]))]
